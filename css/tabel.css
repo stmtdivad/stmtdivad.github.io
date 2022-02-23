@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container{
+    position: relative;
+    width: 900px;
+    height: 593px;
+    background-color: white;
+    margin: 50px auto;
+    z-index: 1;
+  }
+  
+  .kolom1{
+    position: relative;
+    width: 48%;
+    height: 100%;
+    background-color: white;
+    margin-right: 2%;
+    float: left;
+  }
+  
+  .kolom2{
+    position: relative;
+    width: 48%;
+    height: 100%;
+    background-color: white;
+    margin-left: 2%;
+    float: right;
+  }
+  
+  .baris{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 6px;
+    background-color: white;
+    font-weight: 700px;
+  }
+  
+  .baris1{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 6px;
+    background-color: grey;
+    font-weight: 700px;
+    font-size: 17px;
+    letter-spacing: -1px;
+    color: white;
+  }
+  
+  .baris:nth-child(2){
+    height: 120px;
+    background-color: white;
+  }
+  
+  .baris:nth-child(3){
+    height: 70px;
+    background-color: white;
+    line-height: 140%;
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+  
+  .baris:nth-child(4){
+    height: 320px;
+    background-color: white;
+  }
+  
+  .baris4{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 6px;
+    background-color: white;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  
+  .kotak1{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    float: left;
+    font-weight: 800;
+    font-size: 30px;
+    vertical-align: middle;
+  }
+  
+  .kotak2{
+    position: relative;
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .kotak3{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    float: right;
+    margin-right: 1%;
+  }
+  
+  .title3{
+    position: relative;
+    width: 45%;
+    height: 40px;
+    margin-left: 54%;
+    margin-top: 3%;
+    background-color: white;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: right;
+    vertical-align: middle;
+  }
+  
+  .title4{
+    position: relative;
+    width: 51%;
+    height: 125px;
+    margin-bottom: 6px;
+    margin-left: 48%;
+    background: white;
+
+    font-weight: 700;
+    font-size: 125px;
+    vertical-align: top;
+    text-align: right;
+  }
+  
+  .info{
+    position: relative;
+    width: 90%;
+    height: 280px;
+    margin-bottom: 6px;
+    background: white;
+
+  }
+  
+  .descbox{
+    position: relative;
+    border: 1px;
+    width: 45%;
+    height: 60px;
+    margin-bottom: 6px;
+    margin-left: 48%;
+    background-color: pink;
+    padding: 3%;
+    font-style: normal;
+    vertical-align: middle;
+  }
+  
+  table.route_table {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    width: 95%;
+    height: 10%;
+    float: right;
+    margin-bottom: 6%;
+  }
+  
+  table.route_table th {
+    border: 1px solid grey;
+    padding: 5px;
+    text-align: left;
+    background-color: grey;
+    color: white;
+    vertical-align: top;
+    font-weight: 700;
+  }
+  
+  table.route_table td {
+    padding: 5px;
+    vertical-align: top;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 110%;
+  }
+  
+  .bigtitle {
+    margin-bottom: 0px;
+    color:green;
+  }
+  
+  hr.new1 {
+    width: 350px;
+    height: 0px;
+    padding-top: 5px;
+    border: none;
+    position: relative;
+    border-bottom: 5px solid green;}
+  
+  hr.new2 {
+    width: 100%;
+    height: 0px;
+    border: none;
+    position: relative;
+    border-bottom: 5px solid green;}
+  
+    li {
+
+      list-style-type: disc;
+      font-size: 14px;
+      font-style: normal;
+      margin: 4px;
+     }
+  
+    p1{color: green;
+    font-weight: bold;}
+  
+    span{color: grey;}
+  
+  .info4 {
+    color: green;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: bold;
+    }
+  
+  .infogreen {color: green;
+    margin-top: 5px;
+    font-style: normal;
+    font-size: 14px;
+    margin: 0px;}
+    
+  .garis {background-color: blue;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 3px;}
+  
+  div.a{
+    text-indent:3%;
+  }
