@@ -1,0 +1,115 @@
+
+body {
+	margin: 0;
+	padding: 0;
+}
+main {
+	display: flex;
+}
+#side {
+	background-color: lightgrey;
+	flex-grow: 2;
+}
+#top {
+	background-color: lightgrey;
+	padding: 20px;
+	width: 100%;
+	margin-right: 0;
+}
+#content {
+	background-color: darkcyan;
+	flex-grow: 7;
+}
+aside {
+	padding: 15px;
+	background-color: cyan;
+	flex-grow: 3;
+}
+.aside {
+	padding: 15px;
+	background-color: cyan;
+}
+@media screen and (max-width: 1280px) {
+	aside {
+		display: none;
+	}
+}
+@media screen and (min-width: 1280px) {
+	aside {
+		display: unset;
+	}
+	#top {
+		display: none;
+	}
+	.aside {
+		display: none;
+	}
+	.batang {
+		right: 100px;
+	}
+}
+@media screen and (min-width: 600px) {
+	#top {
+		display: none;
+	}
+	.batang {
+		position: relative;
+		right: 100px;
+	}
+}
+@media screen and (max-width: 600px) {
+	#side {
+		display: none;
+	}
+	#top {
+		m
+	}
+	.bt1 {
+		margin-right: 5px;
+	}
+	.bt3, .bt4, .bt5 {
+		margin-right: 5px;
+	}
+}
+
+.jumbotron {
+	background-color: brown;
+	padding: 174px;
+}
+.batang {
+	padding: 5px 10px;
+	background-color: lightgrey;
+	margin: 10px;
+	position: relative;
+	right: 30px;
+}
+.pd {
+	padding: 30px;
+}
+.box {
+	background-color: lightgrey;
+    width: 70px;
+    height: 50px;
+    position: relative;
+    left: 40px;
+}
+.bt1 {
+	padding: 27px 20px;
+	background-color: lightgrey;
+}
+.bt2 {
+	margin-right: 150px;
+	padding: 27px 20px;
+	background-color: lightgrey;
+}
+.bt3 {
+	padding: 7px 20px;
+	background-color: lightgrey;
+}
+.flex {
+	display: flex;
+	margin-bottom: 20px;
+}
+.fg {
+	flex-grow: 1;
+}
